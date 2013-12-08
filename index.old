@@ -1,0 +1,187 @@
+<!DOCTYPE html> 
+ <html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<style media="screen">
+
+    
+    body {
+      font-family: 'Proxima Nova','proxima-nova-1','proxima-nova-2', 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    section, header {
+      display: block;
+    } 
+
+#wrap {
+      position: relative;
+      width: 900px;
+      height: 540px;
+      margin: 0 auto;
+      border: 2px  solid;
+    }
+#wrap h1 {
+      position: relative;
+      width: 600px;
+      margin: 0 auto;
+      border: 1px solid;
+    }
+
+
+    #container {
+      position: relative;
+      width: 900px;
+      margin: 0 auto;
+      border: 2px  solid;
+    }
+
+   
+
+
+   #news {
+     float: left;
+     width: 178px;
+     height: 460px;
+     
+     border: 1px solid;
+   } 
+
+  #perth {
+     float: left;
+     width: 178px;
+     height: 175px;
+     
+     border: 1px solid;
+   } 
+ 
+ #inverness {
+     float: left;
+     width: 178px;
+     height: 175px;
+     
+     border: 1px solid;
+   }
+
+ #moray {
+     float: left;
+     width: 178px;
+     height: 175px;
+     
+     border: 1px solid;
+   } 
+
+#uhilogo {
+     float: left;
+     width: 178px;
+     height: 175px;
+     
+     border: 1px solid;
+   }
+
+ #facebook {
+     float: left;
+     width: 718px;
+     height: 285px;
+     
+     border: 1px solid;
+   }
+
+    section {
+      width: 900px;
+      height: 540px;
+      margin-bottom: 80px;
+      position: relative;
+      z-index: 1;
+    }
+	#nav {
+      position: relative;
+      padding: 0;
+      margin: 0 auto;
+      overflow: auto;
+      width: 780px;
+     
+      z-index: 100;
+    }
+
+    #nav li {
+      list-style: none;
+      float: left;
+      font-weight: bold;
+    }
+
+    #nav li a {
+      text-decoration: none;
+      display: block;
+      background: #EEF;
+     /* background: hsla( 0, 0%, 90%, 0.85 );*/
+      color: blue;
+      padding: 8px 15px;
+    }
+
+    #nav li a:hover {
+      background: red;
+      color: white;
+    }
+	</style>
+    </head>
+	<body>
+    <div id="wrap">
+	<h1>Computing Science and IT Conference</h1>
+	<div id="container">
+		
+		<ul id="nav">
+			<li><a href="#perth">Perth College UHI</a></li>
+			<li><a href="#inverness">Inverness College UHI</a></li>
+			<li><a href="#moray">Moray College UHI</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#facebook">Facebook</a></li>
+		</ul>
+		
+		<div id="news">
+		</div>
+		<div id="perth">
+		</div>
+		<div id="inverness">
+		</div>
+		<div id="moray">
+		</div>
+		<div id="uhilogo">
+                      <a href="http://www.uhi.ac.uk/en"><img src="/images/Logo_of_the_University_of_the_Highlands_and_Islands.jpg" alt="UHI Logo" ></a>                   
+		</div>
+		<div id="facebook">
+		</div>
+	</div>
+      </div>
+		<div id="first">
+		</div>		
+		<script type="text/JavaScript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+		<script type="text/JavaScript">
+			/**** Part 1 - CSS Selectors ****/
+			//jQuery('body').html('<p>Hello</p>');
+			//jQuery('#first').html('<ul><p>Hello Again</p></ul>');
+			//jQuery('#first').parent().html('<p>Hello</p>');
+			/**** End ****/
+		</script> 
+    </body> 
+ </html>
+<!-- <div id="wrap">
+  <div id="container">
+    <ul id="nav">
+      <li><a href="#web-dev">Web development</a></li>
+      <li><a href="#front-end">Front-end development</a></li>
+      <li><a href="#css">CSS</a></li>
+      <li><a href="#css3">CSS3</a></li>
+      <li><a href="#transforms">Transforms</a></li>
+    </ul>
+    <div id="content">
+      <section id="web-dev">...</section>
+      <section id="front-end">...</section>
+      <section id="css">...</section>
+      <section id="css3">...</section>
+      <section id="transforms">...</section>
+    </div> 
+  </div>
+</div>
+ -->

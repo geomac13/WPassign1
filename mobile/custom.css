@@ -1,0 +1,24 @@
+#facebook
+{
+	color:#fff;
+	float:left;
+	height: 330px;
+	margin:15px;
+	overflow:hidden;
+	position:relative;
+	width: 600px;
+}
+#tiles-left
+{
+	overflow:hidden;
+	position:relative;
+	width: 210px;
+	float:left;
+}
+#tiles
+{
+	overflow:hidden;
+	position:relative;
+	width: 650px;
+	float:left;
+}
